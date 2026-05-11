@@ -1,7 +1,25 @@
-﻿__pycache__/
+﻿# Python
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Environment
 .env
+.env.*
+
+# OS
 .DS_Store
-*.log
+Thumbs.db
+
+# Editor
 .vscode/
+.idea/
+
+# Logs & temp
+*.log
 *.tmp
+*.bak
+
+# YouTube Library App
+videos/                  # Downloaded MP4 files (too large for GitHub)
